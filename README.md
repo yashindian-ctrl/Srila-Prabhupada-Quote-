@@ -40,7 +40,7 @@ To set up this project locally, follow these steps:
 
 - **HTML**: Provides the structure of the website, including quotes and categories pages.
 - **CSS**: Ensures the website is visually appealing and responsive across different devices.
-- **JavaScript**: Implements the functionality for daily quotes, search, and category filtering.
+
 
 
 ## Screenshot
