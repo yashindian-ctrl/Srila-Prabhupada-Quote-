@@ -42,24 +42,6 @@ To set up this project locally, follow these steps:
 - **CSS**: Ensures the website is visually appealing and responsive across different devices.
 - **JavaScript**: Implements the functionality for daily quotes, search, and category filtering.
 
-## Contributing
-
-We welcome contributions to enhance this project. To contribute:
-
-1. **Fork the Repository**.
-2. **Create a New Branch**: 
-    ```bash
-    git checkout -b feature-name
-    ```
-3. **Commit Your Changes**: 
-    ```bash
-    git commit -m "Add new feature"
-    ```
-4. **Push to the Branch**: 
-    ```bash
-    git push origin feature-name
-    ```
-5. **Submit a Pull Request**.
 
 ## Screenshot
 ![Password Form Screenshot](screenshot.jpg)
