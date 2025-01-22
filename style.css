@@ -1,0 +1,121 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row {
+    /* display: flex => flex container */
+    display: flex;
+
+    /* can't use yet */
+    /* gap: 100px; */
+}
+
+
+header {
+
+    background: #F3964D;
+    padding: .5em 0;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+ 
+.nav__item{
+  margin-left: 0.4em;
+  margin-right: 1em;
+ }
+.nav__link {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;;
+}
+
+.nav__link--button {
+    background: #FFF4DF;
+    color: #6E6A5B;
+    padding: .25em 1em;
+    border-radius: 10em;
+}
+
+.nav__link:hover {
+    opacity: .75;
+}
+
+
+.col {
+    /* these are now flex items */
+    width: 100%;
+}
+
+.col + .col{
+  margin-left: 30px
+  
+}
+.hero {
+    padding: 100px 0;
+   /* background-color: #23424A;*/  
+    color: #FFF;
+    background-image: url(../Background-image.jpg)
+}
+
+
+.hero__text {
+    width: 60%;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.three-col{
+  text-align: center;
+  padding : 3em 0; 
+}
+
+.three-col h2{
+  color: #87629A; 
+}
+
+.two-col{
+  text-align: center;
+  background: #F9E594;
+  color: #3A3329;
+  padding: 3em 0;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #132023;
+    font-weight: 900;
+    background-color: #F3C668;
+    padding: .75em 2em;
+    border-radius: 100px;
+    
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75; 
+}
