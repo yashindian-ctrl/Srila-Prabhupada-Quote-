@@ -8,7 +8,6 @@ This project is a website dedicated to the teachings and quotes of Srila A.C. Bh
 
 - **Daily Quotes**: Display a new quote each day to inspire visitors.
 - **Quote Categories**: Organize quotes into various categories for easy browsing.
-- **Search Functionality**: Enable users to search for specific quotes or topics.
 - **Responsive Design**: Ensure the website looks great on various devices, including mobile phones and tablets.
 
 ## Installation
